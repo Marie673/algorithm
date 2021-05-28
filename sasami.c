@@ -41,14 +41,8 @@ int main(){
     a[num] = '\0';
 
     for(int i = 0; i < time; i++){
-        /*
-        for(int j = 0; j < num; j++) {
-            printf("%c", a[j]);
-        }
-         */
-        printf("%s", a);
+        printf("%s\n", a);
         a = plus(num-1, a);
-        printf("\n");
     }
 
 
